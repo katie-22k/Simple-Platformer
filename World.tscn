@@ -1,0 +1,65 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://block.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Player.gd" type="Script" id=3]
+
+[node name="World" type="Node2D"]
+
+[node name="block" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 72 )
+
+[node name="block8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 162, 90 )
+
+[node name="block9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 180, 108 )
+
+[node name="block10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 198, 126 )
+
+[node name="block11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 216, 144 )
+
+[node name="block12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 234, 162 )
+
+[node name="block13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 252, 171 )
+
+[node name="block14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 270, 171 )
+
+[node name="block15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 171 )
+
+[node name="block16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 306, 171 )
+
+[node name="block2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 126, 72 )
+
+[node name="block3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 108, 72 )
+
+[node name="block4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 90, 72 )
+
+[node name="block5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 72, 72 )
+
+[node name="block6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 54, 72 )
+
+[node name="block7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 36, 72 )
+
+[node name="block17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 18, 72 )
+
+[node name="block18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 9, 54 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 10, 33 )
+script = ExtResource( 3 )
